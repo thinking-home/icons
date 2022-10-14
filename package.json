@@ -1,0 +1,31 @@
+{
+  "name": "@thinking-home/icons",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "update": "rm -rf src && npx @svgr/cli -- svg",
+    "build": "pack build",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinking-home/icons.git"
+  },
+  "author": "lcow90984@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinking-home/icons/issues"
+  },
+  "homepage": "https://github.com/thinking-home/icons#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@bem-react/pack": "^1.6.0",
+    "@svgr/cli": "^6.5.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  }
+}
