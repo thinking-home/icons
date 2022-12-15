@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const SvgHomeBlank = (
+const SvgStopwatch = (
     props: SVGProps<SVGSVGElement>,
     ref: Ref<SVGSVGElement>,
 ) => (
@@ -14,12 +14,16 @@ const SvgHomeBlank = (
         {...props}
     >
         <path
+            d="M12 14a1 1 0 0 1-1-1V9a1 1 0 1 1 2 0v4a1 1 0 0 1-1 1Z"
+            fill="currentColor"
+        />
+        <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M13.138 3.344a2 2 0 0 0-2.276 0L3.724 8.283A4 4 0 0 0 2 11.573V17a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4v-5.428a4 4 0 0 0-1.724-3.289l-7.138-4.939ZM16 19h2a2 2 0 0 0 2-2v-5.428a2 2 0 0 0-.862-1.644L12 4.989 4.862 9.928A2 2 0 0 0 4 11.572V17a2 2 0 0 0 2 2h2v-5a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v5Zm-6 0h4v-5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v5Z"
+            d="M11 1a1 1 0 1 0 0 2v1.055A9.001 9.001 0 0 0 12 22a9 9 0 0 0 7.032-14.618l1.453-1.453a1 1 0 0 0-1.414-1.414l-1.453 1.453A8.957 8.957 0 0 0 13 4.055V3a1 1 0 1 0 0-2h-2Zm1 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"
             fill="currentColor"
         />
     </svg>
 );
-const ForwardRef = forwardRef(SvgHomeBlank);
+const ForwardRef = forwardRef(SvgStopwatch);
 export default ForwardRef;

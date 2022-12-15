@@ -7,24 +7,19 @@ const SvgTimer = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        role="img"
         ref={ref}
         {...props}
     >
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M15.002 4.515a1 1 0 0 1 1.36-.39A9 9 0 1 1 5.625 5.647a1 1 0 1 1 1.416 1.412 7 7 0 1 0 8.349-1.184 1 1 0 0 1-.39-1.36Z"
+            d="M13 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
             fill="currentColor"
         />
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M12.707 12.707a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414Z"
+            d="M15.122 4.028a1 1 0 0 1 1.353-.41A9.5 9.5 0 1 1 5.271 5.294a1 1 0 0 1 1.414-.002C6.881 5.487 7 5.744 7 6c0 .255-.118.51-.312.706a7.5 7.5 0 1 0 8.844-1.324 1 1 0 0 1-.41-1.354Z"
             fill="currentColor"
         />
         <path
-            d="M13 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
+            d="M9.707 8.293a1 1 0 1 0-1.414 1.414l3 3a1 1 0 0 0 1.414-1.414l-3-3Z"
             fill="currentColor"
         />
     </svg>

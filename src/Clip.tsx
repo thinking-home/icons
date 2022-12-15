@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const SvgCloud = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+const SvgClip = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         width={24}
         height={24}
@@ -13,10 +13,10 @@ const SvgCloud = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M5.339 18H18a4 4 0 0 0 0-8c-.594 0-1.19.083-1.782.13l-.556-1.347a4.502 4.502 0 0 0-8.543.683l-.34 1.453-1.49.087A3.5 3.5 0 0 0 2 14.5c0 1.904 1.5 3.334 3.339 3.5ZM17.51 8.02a6.502 6.502 0 0 0-12.338.99A5.5 5.5 0 0 0 0 14.5c0 2.869 2.197 5.247 5 5.5h13a6 6 0 1 0-.49-11.98Z"
+            d="M10.707 4.515a5 5 0 0 1 7.071 7.07l-5.657 5.658A3 3 0 1 1 7.88 13l5.657-5.657a1 1 0 1 1 1.414 1.414l-5.657 5.657a1 1 0 1 0 1.414 1.414l5.657-5.656a3 3 0 0 0-4.243-4.243l-5.657 5.657a5 5 0 0 0 7.072 7.07l2.828-2.828a1 1 0 0 1 1.414 1.415L14.95 20.07a7 7 0 0 1-9.9-9.9l5.657-5.656Z"
             fill="currentColor"
         />
     </svg>
 );
-const ForwardRef = forwardRef(SvgCloud);
+const ForwardRef = forwardRef(SvgClip);
 export default ForwardRef;
