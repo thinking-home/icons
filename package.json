@@ -1,6 +1,6 @@
 {
   "name": "@thinking-home/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "update": "rm -rf src && npx @svgr/cli -- svg",
